@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block title %}Contact{% endblock %}
+{% block content %}
+<h1>Witaj na moim portfolio!</h1>
+<p>Contact with me.</p>
+<form method="POST" action="/contact">
+    <input type="text" name="name" placeholder="Twoje imię" required><br>
+    <input type="email" name="email" placeholder="Twój email" required><br>
+    <textarea name="message" placeholder="Wiadomość" required></textarea><br>
+    <button type="submit">Wyślij</button>
+</form>
+
+{% if submitted %}
+<p>Dziękuję za wiadomość, {{ name }}! 📩</p>
+{% endif %}
+{% endblock %}
