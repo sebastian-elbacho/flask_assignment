@@ -54,6 +54,18 @@ main p {
     text-align: justify;
 }
 
+/* main content */
+
+.section-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left; /* lub center jeśli wolisz */
+}
+
+
+
+
 /* Contact form */
 
 form {
