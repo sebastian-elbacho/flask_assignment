@@ -64,6 +64,18 @@ main p {
 }
 
 
+/* ul ,li  */
+
+.section-content ul {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+}
+.section-content li {
+  margin: 5px 0;
+}
+
+
 
 
 /* Contact form */
