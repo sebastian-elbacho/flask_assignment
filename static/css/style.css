@@ -143,3 +143,27 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+
+/* media */ 
+
+@media (max-width: 768px) {
+  .section-content {
+    padding: 10px;
+    max-width: 100%;
+  }
+
+  header, footer {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  nav ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  main h1 {
+    font-size: 22px;
+  }
+}
