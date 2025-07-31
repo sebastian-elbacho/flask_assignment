@@ -27,8 +27,7 @@ def contact():
         print(f"Odebrano wiadomość od {name} ({email}): {message}")
         return render_template('contact.html', submitted=True, name=name)
     return render_template('contact.html', submitted=False)
-    pass
-    return render_template('contact.html')
+   
 
 if __name__ == '__main__':
     app.run(debug=True)
