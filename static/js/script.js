@@ -1,4 +1,4 @@
-// Smooth scroll do linków w nav
+// Smooth scrolling of links in the menu
 document.querySelectorAll('nav a').forEach(link => {
     link.addEventListener('click', function(e) {
         if (this.hash !== "") {
@@ -13,5 +13,5 @@ document.querySelectorAll('nav a').forEach(link => {
     });
 });
 
-// Debug
-console.log("JavaScript działa! 🚀");
+// Debug: check if JS is working
+console.log("JavaScript działa! :)");
