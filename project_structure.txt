@@ -1,18 +1,18 @@
-portfolio_app/
-│
-├── app.py
-├── requirements.txt
-├── Procfile
-├── runtime.txt
-├── templates/
-│   ├── base.html
-│   ├── home.html
-│   ├── projects.html
-│   ├── skills.html
-│   ├── contact.html
-│   └── about.html
-├── static/
-│   ├── css/style.css
-│   └── js/script.js
+portfolio_app.
+|
+|--  app.py
+|-- requirements.txt
+|--Procfile
+|-- runtime.txt
+|-- templates/
+|   |-- base.html
+|   |-- home.html
+|   |-- projects.html
+|   |-- skills.html
+|   |-- contact.html
+|   |-- about.html
+|-- static/
+|   |-- css/style.css
+|   |-- js/script.js
 
 
