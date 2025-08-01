@@ -49,3 +49,6 @@ def contact():
 if __name__ == '__main__':
     app.run(debug=True)
 
+
+# Portfolio Flask App created by Sebastian Kajda (UCD Assignment - August 2025)
+
