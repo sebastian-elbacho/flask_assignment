@@ -1,7 +1,7 @@
-#We import the necessary modules from Flask
+#import the necessary modules from Flask
 from flask import Flask, render_template, request
 
-# We create an instance of the Flask application
+#  create an instance of the Flask application
 app = Flask(__name__)
 
 # The main route - website
