@@ -36,7 +36,7 @@ def contact():
         email = request.form['email']
         message = request.form['message']
 
-        # Printing a message to the console (simulating sending a message)
+        # Printing a message to the console, simulating sending a message
         print(f"Odebrano wiadomość od {name} ({email}): {message}")
 
         # We pass data from the form to the template
