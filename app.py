@@ -42,7 +42,7 @@ def contact():
         # We pass data from the form to the template
         return render_template('contact.html', submitted=True, name=name)
     
-     # Dla metody GET zwracamy pusty formularz
+     # For the GET method we return an empty form
     return render_template('contact.html', submitted=False)
    
 # We only run the application if the file is run directly
